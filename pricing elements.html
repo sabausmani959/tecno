@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Elements</title>
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/Hover-master/css/hover-min.css">
+  <link rel="stylesheet" href="assets/icon/css/all.min.css">
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".num").counterUp({
+        delay: 2,
+        time: 3000
+      })
+    });
+
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 150) {
+          $("#p1").css("width", "64%")
+          $("#p2").css("width", "82%")
+          $("#p3").css("width", "73%")
+          $("#p4").css("width", "87%")
+        }
+        else {
+          $("#p1").css("width", "0%")
+          $("#p2").css("width", "0%")
+          $("#p3").css("width", "0%")
+          $("#p4").css("width", "0%")
+        }
+      })
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!-- navbar start -->
+  <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/main-logo.png" alt="" width="100%"></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars barssa"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"> <span class="navstyle">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> <span class="navstyle1">About</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="digital services.html"> <span class="navstyle1">Services</span> </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="pricing elements.html"> <span class="navstyle1">Pricing</span> </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="progress bars.html"> <span class="navstyle1">Progress</span> </a>
+              </li>
+             
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <span class="navstyle1">Elements</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="progress bars.html">Progress Bars Elements</a></li>
+                  <li><a class="dropdown-item" href="pricing elements.html">Pricing Elements</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ.html"> <span class="navstyle1">FAQ</span> </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><span class="navstyle1">Contact</span></a>
+              </li>
+
+
+            </ul>
+
+            <button class="btn btn-primary  hvr-box-shadow-outset" type="submit" style="margin-left: 20px;">Get A
+              Quote</button>
+
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- navbar end -->
+
+  <!-- div1 start -->
+
+  <div class="container-fluid main-about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+
+          <h1 class="hdg1-a">PRICING ELEMENTS</h1>
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mybutton">
+              <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; color: gray;">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Pricing Elements</li>
+            </ol>
+          </nav>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- div1 end -->
+
+  <!-- business plan start -->
+
+  <div class="container mt-5 mb-5">
+
+    <div class="row">
+
+      <p class="pric">PRICING AND PLAN</p>
+
+      <h2 class="you">Choose Your Best Plan</h2>
+
+      <div class="ani">
+        <div class="line-con">
+          <marquee behavior="alternate" direction="right" scrollamount="8">
+            <div class="circle"></div>
+          </marquee>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-5">
+
+        <div class="price1">
+          <div style="text-align: center;">
+            <h2 class="bus">Business Plan</h2>
+            <span class="dol">$ </span> <span class="fourty">49.99</span> <span class="mon">/ Month</span>
+          </div>
+          <div class="bx1">
+            <p class="day">30 Days Trial Features <br> Synced To Cloud Database <br> 10 Hours Of Support <br> Social
+              Media Integration <br>
+              Unlimited Features</p>
+          </div>
+
+          <div class="text-center mt-4">
+            <button class="chbtn"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-5">
+        <div class="price1">
+          <div style="text-align: center;">
+            <h2 class="bus">Business Plan</h2>
+            <span class="dol">$ </span> <span class="fourty">49.99</span> <span class="mon">/ Month</span>
+          </div>
+          <div class="bx1">
+            <p class="day">30 Days Trial Features <br> Synced To Cloud Database <br> 10 Hours Of Support <br> Social
+              Media Integration <br>
+              Unlimited Features</p>
+          </div>
+
+          <div class="text-center mt-4">
+            <button class="chbtn"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-5">
+        <div class="price1">
+          <div style="text-align: center;">
+            <h2 class="bus">Business Plan</h2>
+            <span class="dol">$ </span> <span class="fourty">49.99</span> <span class="mon">/ Month</span>
+          </div>
+          <div class="bx1">
+            <p class="day">30 Days Trial Features <br> Synced To Cloud Database <br> 10 Hours Of Support <br> Social
+              Media Integration <br>
+              Unlimited Features</p>
+          </div>
+
+          <div class="text-center mt-4">
+            <button class="chbtn"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <!-- business plan end -->
+
+
+  <!-- pricing plan start -->
+
+  <div class="container py-5 mt-5 mb-5">
+    <div class="row g-4 justify-content-center">
+
+      <div>
+        <p class="pric">PRICING</p>
+
+        <h2 class="you">Our Pricing Plans</h2>
+
+        <div class="ani">
+          <div class="line-con">
+            <marquee behavior="alternate" direction="right" scrollamount="8">
+              <div class="circle"></div>
+            </marquee>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Basic Pack -->
+      <div class="col-md-4  mt-5">
+        <div class="pricing-card shadow">
+          <div class="pricing-header">
+            <h4 class="fw-bold">Basic Pack</h4>
+            <div class="divider"></div>
+            <h2 class="price">$49 <span class="fs-5">/Month</span></h2>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>30 Days Trial Features</li>
+              <li>Synced To Cloud Database</li>
+              <li>10 Hours Of Support</li>
+              <li>Social Media Integration</li>
+              <li>Unlimited Features</li>
+            </ul>
+            <button class="btn btn-outline-primary">
+              Choose Plan <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standard Pack -->
+      <div class="col-md-4 mt-5">
+        <div class="pricing-card shadow">
+          <div class="pricing-header">
+            <h4 class="fw-bold">Standard Pack</h4>
+            <div class="divider"></div>
+            <h2 class="price">$79 <span class="fs-5">/Month</span></h2>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>60 Days Trial Features</li>
+              <li>Advanced Cloud Sync</li>
+              <li>24/7 Priority Support</li>
+              <li>Marketing Tools</li>
+              <li>All Basic Features</li>
+            </ul>
+            <button class="btn btn-outline-primary">
+              Choose Plan <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advance Pack -->
+      <div class="col-md-4 mt-5">
+        <div class="pricing-card shadow">
+          <div class="pricing-header">
+            <h4 class="fw-bold">Advance Pack</h4>
+            <div class="divider"></div>
+            <h2 class="price">$88 <span class="fs-5">/Month</span></h2>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>Unlimited Trial Access</li>
+              <li>Dedicated Account Manager</li>
+              <li>24/7 Live Chat</li>
+              <li>All Pro Features</li>
+              <li>Premium Integration</li>
+            </ul>
+            <button class="btn btn-outline-primary">
+              Choose Plan <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- pricing plan end -->
+
+  <!-- pricing plan2 start -->
+
+  <div class="container mt-5 mb-5">
+
+    <div>
+      <p class="pric">PRICING</p>
+
+      <h2 class="you">Our Pricing Plans</h2>
+
+      <div class="ani">
+        <div class="line-con">
+          <marquee behavior="alternate" direction="right" scrollamount="8">
+            <div class="circle"></div>
+          </marquee>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5 mb-5">
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+
+        <div class="ptwo">
+          <p class="bas">Basic</p>
+          <h2 class="pricee">$49 <span class="fs-5">/Month</span></h2>
+          <hr class="roww">
+          <div style="line-height: 2;">
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">30 Days Trial Features</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Synced To Cloud Database</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">10 Hours Of Support</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Social Media Integration</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Unlimited Features</span> <br>
+          </div>
+          <div class="text-center mt-4">
+            <button class="chbtn1"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="ptwo">
+          <p class="bas">Basic</p>
+          <h2 class="pricee">$49 <span class="fs-5">/Month</span></h2>
+          <hr class="roww">
+          <div style="line-height: 2;">
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">30 Days Trial Features</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Synced To Cloud Database</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">10 Hours Of Support</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Social Media Integration</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Unlimited Features</span> <br>
+          </div>
+          <div class="text-center mt-4">
+            <button class="chbtn1"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="ptwo">
+          <p class="bas">Basic</p>
+          <h2 class="pricee">$49 <span class="fs-5">/Month</span></h2>
+          <hr class="roww">
+          <div style="line-height: 2;">
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">30 Days Trial Features</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Synced To Cloud Database</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">10 Hours Of Support</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Social Media Integration</span> <br>
+            <span><i class="fa-solid fa-circle gapp"></i></span>  <span class="ptxt">Unlimited Features</span> <br>
+          </div>
+          <div class="text-center mt-4">
+            <button class="chbtn1"><span>Choose Plan</span> <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+
+  <!-- pricing plan2 end -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer area start -->
+
+  <div class="container-fluid aboutfoot">
+
+    <div class="container mt-5">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <div class="row">
+            <div class="col-12">
+              <img src="assets/img/white logo.png" alt="" class="footer-logo">
+              <p style="color: white; margin-top: 30px;">Completely strategize client-cent <br>
+                Phosfluorescently iterate efficient <br> internal or organic.</p>
+              <h4 style="font-weight: bold; color: white; margin-top: 20px;">Follow Us</h4>
+              <div style="margin-top: 20px;">
+                <button class="colors"><i class="fa-brands fa-facebook-f"></i></button>
+                <button class="colors"><i class="fa-brands fa-instagram"></i></button>
+                <button class="colors"><i class="fa-brands fa-x-twitter"></i></button>
+                <button class="colors"><i class="fa-brands fa-youtube"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Quick Links</h4>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white; margin-top: 10px;">Home</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Anout Us</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Contact Us</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Services</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Our Team</a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Popular Post</h4>
+          <div class="row">
+            <div class="col-2">
+              <button class="fimg">
+                <img src="assets/img/footer img 1.png" alt="" width="90%">
+              </button>
+
+            </div>
+            <div class="col-10">
+              <p class="will">How to intall Wordpress <br> themeon c-Panel Property</p>
+              <p class="will" style="margin-top: -15px; color: rgb(158, 158, 255);">June 1, 2025</p>
+            </div>
+          </div>
+          <hr style="color: aliceblue;">
+
+          <div class="row">
+            <div class="col-2">
+              <button class="fimg">
+                <img src="assets/img/footer img 2.png" alt="" width="90%">
+              </button>
+
+            </div>
+            <div class="col-10">
+              <p class="will">Most Popular Google Chrome<br> extension for Marketing.</p>
+              <p class="will" style="margin-top: -15px; color: rgb(158, 158, 255);">June 1, 2025</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Contact Info</h4>
+
+          <div class="row">
+            <div class="col-2  locc"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="col-10">
+              <h5 class="locat">Location</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">55 Main Street, New York.</p>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-2  locc mt-2"><i class="fa-regular fa-envelope"></i></div>
+            <div class="col-10 mt-2">
+              <h5 class="locat">Email Us</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">NewYork.example@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2  locc mt-2"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="col-10">
+              <h5 class="locat mt-2">Phone Us</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">+012 (345) 678 99</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <br><br><br><br>
+
+      <hr style="color: aliceblue;">
+      <br>
+
+
+
+      <div class="row">
+        <div class="col-lg-4"><p style="color: white;">© 2025 Habiba.All Rights Reserved.</p></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2 lasttext"><h6>Privacy Policy</h6></div>
+        <div class="col-lg-2 lasttext"><h6>Terms & Conditions</h6></div>
+        <div class="col-lg-2 lasttext"><h6>Contact Us</h6></div>
+      </div>
+      <br>
+
+
+
+
+
+    </div>
+
+  </div>
+  <!-- footer area end -->
+
+
+
+
+
+
+<button id="backToTop" title="Go to top">^</button>
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+  // Show button after scrolling 200px
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Smooth scroll to top
+  document.getElementById("backToTop").onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+
+</html>

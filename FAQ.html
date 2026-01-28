@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/Hover-master/css/hover-min.css">
+  <link rel="stylesheet" href="assets/icon/css/all.min.css">
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".num").counterUp({
+        delay: 2,
+        time: 3000
+      })
+    });
+
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 150) {
+          $("#p1").css("width", "64%")
+          $("#p2").css("width", "82%")
+          $("#p3").css("width", "73%")
+          $("#p4").css("width", "87%")
+        }
+        else {
+          $("#p1").css("width", "0%")
+          $("#p2").css("width", "0%")
+          $("#p3").css("width", "0%")
+          $("#p4").css("width", "0%")
+        }
+      })
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!-- navbar start -->
+  <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/main-logo.png" alt="" width="100%"></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars barssa"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"> <span class="navstyle">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> <span class="navstyle1">About</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="digital services.html"> <span class="navstyle1">Services</span> </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="pricing elements.html"> <span class="navstyle1">Pricing</span> </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="progress bars.html"> <span class="navstyle1">Progress</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ.html"> <span class="navstyle1">FAQ</span> </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><span class="navstyle1">Contact</span></a>
+              </li>
+
+
+            </ul>
+
+            <button class="btn btn-primary  hvr-box-shadow-outset" type="submit" style="margin-left: 20px;">Get A
+              Quote</button>
+
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- navbar end -->
+
+  <!-- div1 start -->
+
+  <div class="container-fluid main-about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+
+          <h1 class="hdg1-a">FAQ</h1>
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mybutton">
+              <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; color: gray;">HOME</a></li>
+              <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+            </ol>
+          </nav>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- div1 end -->
+
+  <!-- business plan start -->
+
+  <div class="container mt-5 mb-5">
+
+    <div class="row">
+
+      <p class="pric">FAQ'S</p>
+
+      <h2 class="you">Need Any Help ? <br> Read Popular Questions</h2>
+
+      <div class="ani">
+        <div class="line-con">
+          <marquee behavior="alternate" direction="right" scrollamount="8">
+            <div class="circle"></div>
+          </marquee>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
+
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item fqq">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        01. What is variations of fact?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-5 fqq">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        02. How much does a website cost?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-5 fqq">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        03. Internet Of Things
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item fqq">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        04. What is variations of fact?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which.</div>
+    </div>
+  </div>
+  <div class="accordion-item mt-5 fqq">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        05. How much does a website cost?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which</div>
+    </div>
+  </div>
+  <div class="accordion-item mt-5 fqq">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        06. Internet Of Things
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">There are many variations of passages of Lorem Ipsum available,
+         but the majority have suffered alteration in some form, by injected humour, or randomised words which</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+     
+
+
+
+    </div>
+
+  </div>
+
+  <!-- business plan end -->
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer area start -->
+
+  <div class="container-fluid aboutfoot">
+
+    <div class="container mt-5">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <div class="row">
+            <div class="col-12">
+              <img src="assets/img/white logo.png" alt="" class="footer-logo">
+              <p style="color: white; margin-top: 30px;">Completely strategize client-cent <br>
+                Phosfluorescently iterate efficient <br> internal or organic.</p>
+              <h4 style="font-weight: bold; color: white; margin-top: 20px;">Follow Us</h4>
+              <div style="margin-top: 20px;">
+                <button class="colors"><i class="fa-brands fa-facebook-f"></i></button>
+                <button class="colors"><i class="fa-brands fa-instagram"></i></button>
+                <button class="colors"><i class="fa-brands fa-x-twitter"></i></button>
+                <button class="colors"><i class="fa-brands fa-youtube"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Quick Links</h4>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white; margin-top: 10px;">Home</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Anout Us</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Contact Us</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Services</a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-3">
+              <div>
+                <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+                <a href="" style="text-decoration: none; color: white;">Our Team</a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Popular Post</h4>
+          <div class="row">
+            <div class="col-2">
+              <button class="fimg">
+                <img src="assets/img/footer img 1.png" alt="" width="90%">
+              </button>
+
+            </div>
+            <div class="col-10">
+              <p class="will">How to intall Wordpress <br> themeon c-Panel Property</p>
+              <p class="will" style="margin-top: -15px; color: rgb(158, 158, 255);">June 1, 2025</p>
+            </div>
+          </div>
+          <hr style="color: aliceblue;">
+
+          <div class="row">
+            <div class="col-2">
+              <button class="fimg">
+                <img src="assets/img/footer img 2.png" alt="" width="90%">
+              </button>
+
+            </div>
+            <div class="col-10">
+              <p class="will">Most Popular Google Chrome<br> extension for Marketing.</p>
+              <p class="will" style="margin-top: -15px; color: rgb(158, 158, 255);">June 1, 2025</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+          <h4 style="font-weight: bold; margin-top: 100px; margin-bottom: 20px; color: white;">Contact Info</h4>
+
+          <div class="row">
+            <div class="col-2  locc"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="col-10">
+              <h5 class="locat">Location</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">55 Main Street, New York.</p>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-2  locc mt-2"><i class="fa-regular fa-envelope"></i></div>
+            <div class="col-10 mt-2">
+              <h5 class="locat">Email Us</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">NewYork.example@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2  locc mt-2"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="col-10">
+              <h5 class="locat mt-2">Phone Us</h5>
+              <p style="color: rgb(158, 158, 255); margin-top: -5px;">+012 (345) 678 99</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <br><br><br><br>
+
+      <hr style="color: aliceblue;">
+      <br>
+
+
+
+      <div class="row">
+        <div class="col-lg-4"><p style="color: white;">© 2025 Habiba.All Rights Reserved.</p></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2 lasttext"><h6>Privacy Policy</h6></div>
+        <div class="col-lg-2 lasttext"><h6>Terms & Conditions</h6></div>
+        <div class="col-lg-2 lasttext"><h6>Contact Us</h6></div>
+      </div>
+      <br>
+
+
+
+
+
+    </div>
+
+  </div>
+  <!-- footer area end -->
+
+
+
+
+
+
+
+<button id="backToTop" title="Go to top">^</button>
+
+
+
+
+
+
+
+</body>
+
+<script>
+  // Show button after scrolling 200px
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Smooth scroll to top
+  document.getElementById("backToTop").onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+
+</html>
